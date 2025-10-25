@@ -6,7 +6,7 @@
 ---
 
 ## 📘 Overview  
-The **Team Allocation Simulator** automatically forms balanced and diverse student teams for the “Introduction to Data Science” course.  
+The **Team Allocation Simulator** automatically forms balanced and diverse student teams.  
 
 It assigns students into teams of five (or customizable team sizes) while ensuring fairness across:  
 - **School Affiliation** – prevents majority from the same school  
