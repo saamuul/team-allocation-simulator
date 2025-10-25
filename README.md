@@ -3,7 +3,7 @@
 **Institution:** Nanyang Technological University (NTU)  
 **Semester:** AY2024/25 Semester 1  
 
-## 📘 Overview  
+## Overview  
 The **Team Allocation Simulator** automatically forms balanced and diverse student teams.  
 
 It assigns students into teams of five (or customizable team sizes) while ensuring fairness across:  
@@ -42,4 +42,4 @@ The program reads student records from `records.csv` and outputs a new file with
 2. Run All Cells in Order
 - The notebook will read data from records.csv.
 - Teams are generated based on diversity criteria (School, Gender, CGPA).
-- The final file <LabGroup>_<TeamNumber>_<LeaderName>.csv will be saved automatically.
+- The final csv file will be created automatically.
