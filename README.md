@@ -18,27 +18,22 @@ The program reads student records from `records.csv` and outputs a new file with
 ---
 ## Software Requirements
 - Python 3.8+
-(Recommended: Python 3.10 or above)
-
 - Jupyter Notebook
-(Comes with Anaconda or can be installed via pip install notebook)
-
-- Git (optional, for cloning the repository)
 
 ## Installation  
 
-1. **Clone the repository**
+1. Clone the repository
    ```bash
    git clone https://github.com/<your-username>/SC1003-Team-Allocation-Simulator.git
    cd SC1003-Team-Allocation-Simulator
    
-2. **Create a Virtual Environment**
+2. Create a Virtual Environment
    ```bash
     python -m venv venv
     source venv/bin/activate   # Mac/Linux
     venv\Scripts\activate      # Windows
 
-3. **Install Dependencies
+3. Install Dependencies
       ```bash
     pip install -r requirements.txt
 
