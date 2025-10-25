@@ -1,15 +1,53 @@
-# Team Allocation Simulator
+# SC1003 Team Allocation Simulator  
+**Course:** Introduction to Computational Thinking and Programming  
+**Institution:** Nanyang Technological University (NTU)  
+**Semester:** AY2024/25 Semester 1  
 
-A small simulator to explore strategies for assigning people to teams/projects given skills, availability and preferences.
+---
 
-Features
-- Define people, projects, roles and constraints
-- Plug-in allocation strategies (greedy, annealing, genetic, ILP)
-- Batch experiments and export results (JSON/CSV)
+## 📘 Overview  
+The **Team Allocation Simulator** automatically forms balanced and diverse student teams for the “Introduction to Data Science” course.  
 
-Quick start (pick based on project language)
-- Node.js: npm install && npm start -- --config configs/example.json
-- Python: python -m simulator --config configs/example.yaml
+It assigns students into teams of five (or customizable team sizes) while ensuring fairness across:  
+- **School Affiliation** – prevents majority from the same school  
+- **Gender** – promotes gender diversity  
+- **CGPA** – balances academic performance  
 
-Outputs
-- Allocation maps (person → role), run metrics, CSV/JSON exports for analysis
+The program reads student records from `records.csv` and outputs a new file with assigned team numbers.
+
+---
+## Software Requirements
+- Python 3.8+
+(Recommended: Python 3.10 or above)
+
+- Jupyter Notebook
+(Comes with Anaconda or can be installed via pip install notebook)
+
+- Git (optional, for cloning the repository)
+
+## Installation  
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/<your-username>/SC1003-Team-Allocation-Simulator.git
+   cd SC1003-Team-Allocation-Simulator
+   
+2. **Create a Virtual Environment**
+   ```bash
+    python -m venv venv
+    source venv/bin/activate   # Mac/Linux
+    venv\Scripts\activate      # Windows
+
+3. **Install Dependencies
+      ```bash
+    pip install -r requirements.txt
+
+## Running the Program
+1. Open the Jupyter Notebook
+   ```bash
+    jupyter notebook FDBA_Team1_JohnSmith.ipynb
+
+2. Run All Cells in Order
+- The notebook will read data from records.csv.
+- Teams are generated based on diversity criteria (School, Gender, CGPA).
+- The final file <LabGroup>_<TeamNumber>_<LeaderName>.csv will be saved automatically.
