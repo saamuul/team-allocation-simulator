@@ -1,5 +1,5 @@
-# SC1003 Team Allocation Simulator  
-**Course:** Introduction to Computational Thinking and Programming  
+# Team Allocation Simulator  
+**Course:** SC1003 Introduction to Computational Thinking and Programming  
 **Institution:** Nanyang Technological University (NTU)  
 **Semester:** AY2024/25 Semester 1  
 
