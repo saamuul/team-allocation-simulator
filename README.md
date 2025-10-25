@@ -21,8 +21,8 @@ The program reads student records from `records.csv` and outputs a new file with
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/<your-username>/SC1003-Team-Allocation-Simulator.git
-   cd SC1003-Team-Allocation-Simulator
+   git clone https://github.com/saamuul/team-allocation-simulator.git
+   cd team-allocation-simulator
    
 2. Create a Virtual Environment
    ```bash
@@ -37,7 +37,7 @@ The program reads student records from `records.csv` and outputs a new file with
 ## Running the Program
 1. Open the Jupyter Notebook
    ```bash
-    jupyter notebook FDBA_Team1_JohnSmith.ipynb
+    jupyter notebook FCE1_Team4.ipynb
 
 2. Run All Cells in Order
 - The notebook will read data from records.csv.
