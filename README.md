@@ -42,4 +42,4 @@ The program reads student records from `records.csv` and outputs a new file with
 2. Run All Cells in Order
 - The notebook will read data from records.csv.
 - Teams are generated based on diversity criteria (School, Gender, CGPA).
-- The final csv file will be created automatically.
+- Two output csv files will be created automatically.
