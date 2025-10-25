@@ -3,8 +3,6 @@
 **Institution:** Nanyang Technological University (NTU)  
 **Semester:** AY2024/25 Semester 1  
 
----
-
 ## 📘 Overview  
 The **Team Allocation Simulator** automatically forms balanced and diverse student teams.  
 
@@ -15,7 +13,6 @@ It assigns students into teams of five (or customizable team sizes) while ensuri
 
 The program reads student records from `records.csv` and outputs a new file with assigned team numbers.
 
----
 ## Software Requirements
 - Python 3.8+
 - Jupyter Notebook
