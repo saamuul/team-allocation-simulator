@@ -1,6 +1,5 @@
 # Team Allocation Simulator  
 
-## Overview  
 The **Team Allocation Simulator** automatically forms balanced and diverse student teams.  
 
 It assigns students into teams of five (or customizable team sizes) while ensuring fairness across:  
