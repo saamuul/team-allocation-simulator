@@ -1,6 +1,6 @@
 # Team Allocation Simulator  
 
-The **Team Allocation Simulator** automatically forms balanced and diverse student teams for SC1003.  
+The **Team Allocation Simulator** automatically forms balanced and diverse student teams.  
 
 It assigns students into teams of five (or customizable team sizes) while ensuring fairness across:  
 - **School Affiliation** – prevents majority from the same school  
